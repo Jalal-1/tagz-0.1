@@ -13,7 +13,7 @@ const HiddenPage = () => {
     <div className="flex min-h-screen flex-col items-center justify-center">
       {" "}
       <h1 className="text-5xl tracking-tight font-extrabold text-gray-300">
-        SUCCESS  
+        WELCOME TO TAGZ
       </h1>
       <h2 className="text-3xl text-gray-500">
         You have <span className="font-bold">Started</span>.
@@ -21,7 +21,7 @@ const HiddenPage = () => {
       <p className="text-gray-500">
         You have been signed in{" "}
         <span className="font-semibold text-green-400 text-xl">
-          This is your profiile page.  Take a moment to update your information, socials etc.
+          successfully
         </span>
         !
       </p>

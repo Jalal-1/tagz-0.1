@@ -14,6 +14,7 @@ export const authOptions: AuthOptions = {
         signedMessage: { label: "Signed Message", type: "text" }, // aka signature
       },
       async authorize(credentials, req) {
+        console.log("\n\nHIT", credentials)
         if (!credentials?.signedMessage || !credentials?.message) {
           return null;
         }
