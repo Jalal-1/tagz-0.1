@@ -16,12 +16,12 @@ const HiddenPage = () => {
         WELCOME TO TAGZ
       </h1>
       <h2 className="text-3xl text-gray-500">
-        You have <span className="font-bold">Started</span>.
+        You are now <span className="font-bold">Connected</span>.
       </h2>
       <p className="text-gray-500">
-        You have been signed in{" "}
+        Update your profile and start creating{" "}
         <span className="font-semibold text-green-400 text-xl">
-          successfully
+          PHYGITALS
         </span>
         !
       </p>
