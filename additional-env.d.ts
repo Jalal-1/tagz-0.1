@@ -6,6 +6,8 @@ declare global {
       NEXT_PUBLIC_SIGNIN_MESSAGE: string;
       NEXTAUTH_SECRET: string;
       SIWE_DOMAIN: string;
+      NEXT_PUBLIC_EXAMPLE_1_CONTRACT: `0x${string}`;
+      NEXT_PUBLIC_EXAMPLE_2_CONTRACT: `0x${string}`;
     }
   }
 }
